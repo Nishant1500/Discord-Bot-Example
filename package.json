@@ -1,0 +1,25 @@
+{
+  "name": "discord-bot-example",
+  "version": "1.0.0",
+  "description": "A Discord Bot basic example project with event and command handler, essential commands and a pre-set database.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "keywords": [],
+  "author": "Nishant1500",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "enmap": "^5.8.4",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.21.0"
+  }
+}
